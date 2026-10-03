@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yo‘nalishlar | 1-son Texnikumi</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Asosiy Stil Fayli -->
+    <link rel="stylesheet" href="courses.css">
+</head>
+<body>
+
+    <!-- Orqa fondagi harakatlanuvchi nurli doiralar -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="header">
+        <div class="container navbar">
+            <a href="../index.html" class="logo" aria-label="1-son Texnikumi bosh sahifa">
+                <div class="logo-badge">1</div>
+                <div class="logo-text">
+                    <strong>1-SON TEXNIKUMI</strong>
+                    <span>ZAMONAVIY TA'LIM</span>
+                </div>
+            </a>
+
+            <a href="../index.html" class="btn-back">
+                <span class="arrow-left">←</span>
+                <span>Bosh sahifa</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <section class="courses-section">
+            <div class="container">
+                
+                <!-- SECTION HEADING -->
+                <div class="section-heading">
+                    <span class="section-label">Ta’lim va Kelajak</span>
+                    <h2>Bizning <span>yo‘nalishlar</span></h2>
+                    <p>Zamonaviy mehnat bozori talablariga va xalqaro standartlarga mos kasbiy ta’lim va amaliy mashg‘ulotlar.</p>
+                </div>
+
+                <!-- FILTER AND SEARCH BAR -->
+                <div class="filter-bar">
+                    <div class="search-box">
+                        <input type="text" id="searchInput" placeholder="Yo‘nalish nomi bo‘yicha izlash...">
+                    </div>
+                    <div class="filter-tabs">
+                        <button class="filter-btn active" data-filter="all">Barchasi</button>
+                        <button class="filter-btn" data-filter="it">IT & Texnologiya</button>
+                        <button class="filter-btn" data-filter="service">Xizmat va Ishlab chiqarish</button>
+                        <button class="filter-btn" data-filter="edu">Ta'lim va Madaniyat</button>
+                    </div>
+                </div>
+
+                <!-- COURSES GRID -->
+                <div class="education-grid" id="courseGrid">
+                    
+                    <article class="education-card" data-category="it">
+                        <div class="card-header">
+                            <span class="education-number">01</span>
+                            <span class="badge">Ommabop</span>
+                        </div>
+                        <h3>Axborot texnologiyalari</h3>
+                        <p>Dasturlash, kompyuter texnologiyalari, web-dasturlash, kiberxavfsizlik va zamonaviy IT ko'nikmalarini amalda o'rganing.</p>
+                        <div class="card-footer">
+                            <a href="register.html" class="btn-apply">
+                                <span>O‘qishga topshirish</span>
+                                <span class="arrow-right">→</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="education-card" data-category="service">
+                        <div class="card-header">
+                            <span class="education-number">02</span>
+                            <span class="badge">Amaliy</span>
+                        </div>
+                        <h3>Tikuvchilik</h3>
+                        <p>Kiyim-kechak modelini yaratish, bichish-tikish, avtomatlashtirilgan tikuv mashinalaridan foydalanish va dizayn texnologiyalari.</p>
+                        <div class="card-footer">
+                            <a href="register.html" class="btn-apply">
+                                <span>O‘qishga topshirish</span>
+                                <span class="arrow-right">→</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="education-card" data-category="service">
+                        <div class="card-header">
+                            <span class="education-number">03</span>
+                            <span class="badge">Talab Yuqori</span>
+                        </div>
+                        <h3>Oshpazlik</h3>
+                        <p>Milliy va jahon taomlari retseptlari, restavratsiya servisi, oziq-ovqat xavfsizligi hamda zamonaviy oshxona texnologiyalari.</p>
+                        <div class="card-footer">
+                            <a href="register.html" class="btn-apply">
+                                <span>O‘qishga topshirish</span>
+                                <span class="arrow-right">→</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="education-card" data-category="service">
+                        <div class="card-header">
+                            <span class="education-number">04</span>
+                            <span class="badge">Innovatsion</span>
+                        </div>
+                        <h3>Agrodrom operatori</h3>
+                        <p>Zamonaviy dronlar va qishloq xo'jaligi texnikalarini boshqarish, ekinlarni monitoring qilish hamda aqlli dehqonchilik.</p>
+                        <div class="card-footer">
+                            <a href="register.html" class="btn-apply">
+                                <span>O‘qishga topshirish</span>
+                                <span class="arrow-right">→</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="education-card" data-category="edu">
+                        <div class="card-header">
+                            <span class="education-number">05</span>
+                            <span class="badge">Ijtimoiy</span>
+                        </div>
+                        <h3>Tarbiyachi</h3>
+                        <p>Maktabgacha yoshdagi bolalarni psixologik va intellektual rivojlantirish, zamonaviy interaktiv ta'lim-tarbiya metodlari.</p>
+                        <div class="card-footer">
+                            <a href="register.html" class="btn-apply">
+                                <span>O‘qishga topshirish</span>
+                                <span class="arrow-right">→</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="education-card" data-category="edu">
+                        <div class="card-header">
+                            <span class="education-number">06</span>
+                            <span class="badge">Raqamli</span>
+                        </div>
+                        <h3>Kitobxonachi</h3>
+                        <p>Axborot resurslarini tartibga solish, elektron kutubxona bazalari va raqamli kataloglar bilan professional ishlash.</p>
+                        <div class="card-footer">
+                            <a href="register.html" class="btn-apply">
+                                <span>O‘qishga topshirish</span>
+                                <span class="arrow-right">→</span>
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+
+                <!-- QIDIRUVDA HECH NARSAL TOPILMAGANDA -->
+                <div id="noResults" class="no-results hidden">
+                    <p>Izlanayotgan yo‘nalish bo‘yicha ma'lumot topilmadi.</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>© 2026 1-son Texnikumi. Barcha huquqlar himoyalangan.</p>
+                <div class="footer-links">
+                    <a href="../index.html">Bosh sahifa</a>
+                    <a href="register.html">Ro‘yxatdan o‘tish</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Skriptlar -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+    <script src="../js/supabase-config.js"></script>
+    <script src="../js/content.js"></script>
+    <script src="courses.js"></script>
+</body>
+</html>
